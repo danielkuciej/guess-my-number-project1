@@ -93,13 +93,8 @@ again.addEventListener("click", function () {
   againMechanism();
 });
 
-const newFeature = function () {
-  console.log("Welcome in my game");
-};
-
 //Implements key functions
 document.addEventListener("keydown", function (e) {
   if (e.key === "Enter") gameMechanism();
   if (e.key === "Escape") againMechanism();
-  newFeature();
 });
